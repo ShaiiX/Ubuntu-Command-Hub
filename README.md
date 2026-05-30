@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="https://img.shields.io/badge/versión-1.0-E95420?style=flat-square" alt="versión">
+  <img src="https://img.shields.io/badge/versión-1.2-E95420?style=flat-square" alt="versión">
   <img src="https://img.shields.io/badge/estado-activo-29903B?style=flat-square" alt="estado">
 </p>
 
