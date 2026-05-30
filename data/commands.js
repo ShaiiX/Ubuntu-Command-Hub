@@ -1,5 +1,8 @@
+// command data for ubuntu command hub
+// each category lists commands and tags to support search and display
 const COMMANDS = {
     categories: [
+        // system navigation commands
         {
             id: "system-navigation",
             icon: "terminal",
@@ -15,6 +18,7 @@ const COMMANDS = {
                 { id: "alias", tags: ["shortcut", "custom", "command", "alias"] }
             ]
         },
+        // file and directory commands
         {
             id: "files-directories",
             icon: "folder",
@@ -37,6 +41,7 @@ const COMMANDS = {
                 { id: "vim", tags: ["editor", "text", "edit", "advanced", "terminal"] }
             ]
         },
+        // permissions and user management commands
         {
             id: "permissions-users",
             icon: "lock",
@@ -54,6 +59,7 @@ const COMMANDS = {
                 { id: "id", tags: ["user", "identity", "uid", "gid", "groups"] }
             ]
         },
+        // process and system commands
         {
             id: "processes-system",
             icon: "cpu",
@@ -72,6 +78,7 @@ const COMMANDS = {
                 { id: "nohup", tags: ["process", "background", "persistent", "hup"] }
             ]
         },
+        // network and connectivity commands
         {
             id: "network",
             icon: "globe",
@@ -90,6 +97,7 @@ const COMMANDS = {
                 { id: "scp", tags: ["copy", "remote", "secure", "transfer", "file"] }
             ]
         },
+        // package management commands
         {
             id: "packages",
             icon: "package",
@@ -104,6 +112,7 @@ const COMMANDS = {
                 { id: "dpkg", tags: ["package", "debian", "install", "manage", "deb"] }
             ]
         },
+        // disk and storage commands
         {
             id: "disk-storage",
             icon: "hard-drive",
@@ -118,6 +127,7 @@ const COMMANDS = {
                 { id: "blkid", tags: ["block", "uuid", "label", "device", "attribute"] }
             ]
         },
+        // log and diagnostics commands
         {
             id: "logs-diagnostics",
             icon: "file-text",
