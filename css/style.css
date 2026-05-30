@@ -12,6 +12,7 @@
   --border: #30363d;
   --border-light: #21262d;
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --overlay-bg: rgba(0, 0, 0, 0.5);
   --radius: 10px;
   --radius-sm: 6px;
   --sidebar-width: 260px;
@@ -19,6 +20,22 @@
   --transition: 0.2s ease;
   --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f6f8fa;
+  --bg-card: #ffffff;
+  --bg-hover: #f0f2f5;
+  --text-primary: #1f2328;
+  --text-secondary: #656d76;
+  --text-muted: #8b949e;
+  --accent: #e95420;
+  --accent-dim: rgba(233, 84, 32, 0.08);
+  --border: #d0d7de;
+  --border-light: #d8dee4;
+  --shadow-lg: 0 8px 24px rgba(140, 149, 159, 0.2);
+  --overlay-bg: rgba(0, 0, 0, 0.3);
 }
 
 *,
@@ -180,6 +197,31 @@ body {
 
 .lang-toggle.active .lang-dot {
   background: var(--accent);
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.theme-toggle:hover {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
 }
 
 .layout {
@@ -473,7 +515,7 @@ body {
   display: none;
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: var(--overlay-bg);
   z-index: 45;
 }
 
