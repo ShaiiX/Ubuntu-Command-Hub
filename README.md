@@ -11,8 +11,6 @@
   Pensada para consulta diaria.</em>
 </p>
 
-<br>
-
 ## Estructura del proyecto
 
 ```
@@ -26,8 +24,6 @@
 │   └── translations.js     ←  Traducciones Español / Inglés
 └── README.md
 ```
-
-<br>
 
 ## Categorías
 
