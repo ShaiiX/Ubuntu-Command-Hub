@@ -13,6 +13,22 @@
 
 <br>
 
+## Estructura del proyecto
+
+```
+├── index.html              ←  Página principal
+├── css/
+│   └── style.css           ←  Estilos
+├── js/
+│   └── app.js              ←  Aplicación
+├── data/
+│   ├── commands.js         ←  Estructura y etiquetas de los comandos
+│   └── translations.js     ←  Traducciones Español / Inglés
+└── README.md
+```
+
+<br>
+
 ## Categorías
 
 | Categoría | Comandos |
