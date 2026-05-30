@@ -1,12 +1,7 @@
-// command data for ubuntu command hub
-// each category lists commands and tags to support search and display
 const COMMANDS = {
     categories: [
-        // system navigation commands
         {
             id: "system-navigation",
-            icon: "terminal",
-            order: 1,
             commands: [
                 { id: "cd", tags: ["directory", "navigate", "change", "folder"] },
                 { id: "ls", tags: ["list", "directory", "files", "folder", "contents"] },
@@ -18,11 +13,8 @@ const COMMANDS = {
                 { id: "alias", tags: ["shortcut", "custom", "command", "alias"] }
             ]
         },
-        // file and directory commands
         {
             id: "files-directories",
-            icon: "folder",
-            order: 2,
             commands: [
                 { id: "cp", tags: ["copy", "duplicate", "file", "backup"] },
                 { id: "mv", tags: ["move", "rename", "file", "cut"] },
@@ -41,11 +33,8 @@ const COMMANDS = {
                 { id: "vim", tags: ["editor", "text", "edit", "advanced", "terminal"] }
             ]
         },
-        // permissions and user management commands
         {
             id: "permissions-users",
-            icon: "lock",
-            order: 3,
             commands: [
                 { id: "chmod", tags: ["permissions", "mode", "file", "access"] },
                 { id: "chown", tags: ["owner", "change", "user", "group", "file"] },
@@ -59,11 +48,8 @@ const COMMANDS = {
                 { id: "id", tags: ["user", "identity", "uid", "gid", "groups"] }
             ]
         },
-        // process and system commands
         {
             id: "processes-system",
-            icon: "cpu",
-            order: 4,
             commands: [
                 { id: "ps", tags: ["process", "list", "running", "status"] },
                 { id: "top", tags: ["process", "monitor", "realtime", "cpu", "memory"] },
@@ -78,11 +64,8 @@ const COMMANDS = {
                 { id: "nohup", tags: ["process", "background", "persistent", "hup"] }
             ]
         },
-        // network and connectivity commands
         {
             id: "network",
-            icon: "globe",
-            order: 5,
             commands: [
                 { id: "ip", tags: ["network", "interface", "address", "route"] },
                 { id: "ping", tags: ["connectivity", "test", "host", "latency"] },
@@ -97,11 +80,8 @@ const COMMANDS = {
                 { id: "scp", tags: ["copy", "remote", "secure", "transfer", "file"] }
             ]
         },
-        // package management commands
         {
             id: "packages",
-            icon: "package",
-            order: 6,
             commands: [
                 { id: "apt-update", tags: ["package", "update", "repository", "apt"] },
                 { id: "apt-upgrade", tags: ["package", "upgrade", "update", "system"] },
@@ -112,11 +92,8 @@ const COMMANDS = {
                 { id: "dpkg", tags: ["package", "debian", "install", "manage", "deb"] }
             ]
         },
-        // disk and storage commands
         {
             id: "disk-storage",
-            icon: "hard-drive",
-            order: 7,
             commands: [
                 { id: "lsblk", tags: ["block", "device", "disk", "list", "storage"] },
                 { id: "fdisk", tags: ["partition", "disk", "table", "manage"] },
@@ -127,11 +104,8 @@ const COMMANDS = {
                 { id: "blkid", tags: ["block", "uuid", "label", "device", "attribute"] }
             ]
         },
-        // log and diagnostics commands
         {
             id: "logs-diagnostics",
-            icon: "file-text",
-            order: 8,
             commands: [
                 { id: "journalctl", tags: ["log", "systemd", "journal", "query"] },
                 { id: "dmesg", tags: ["kernel", "log", "boot", "message"] },
