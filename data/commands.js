@@ -1,5 +1,8 @@
+// command dataset for ubuntu command hub
+// categories include linux commands and search tags
 const COMMANDS = {
     categories: [
+        // system navigation commands
         {
             id: "system-navigation",
             commands: [
@@ -13,6 +16,7 @@ const COMMANDS = {
                 { id: "alias", tags: ["shortcut", "custom", "command", "alias"] }
             ]
         },
+        // file and directory commands
         {
             id: "files-directories",
             commands: [
@@ -33,6 +37,7 @@ const COMMANDS = {
                 { id: "vim", tags: ["editor", "text", "edit", "advanced", "terminal"] }
             ]
         },
+        // permissions and user commands
         {
             id: "permissions-users",
             commands: [
@@ -48,6 +53,7 @@ const COMMANDS = {
                 { id: "id", tags: ["user", "identity", "uid", "gid", "groups"] }
             ]
         },
+        // process and system commands
         {
             id: "processes-system",
             commands: [
@@ -64,6 +70,7 @@ const COMMANDS = {
                 { id: "nohup", tags: ["process", "background", "persistent", "hup"] }
             ]
         },
+        // network commands
         {
             id: "network",
             commands: [
@@ -80,6 +87,7 @@ const COMMANDS = {
                 { id: "scp", tags: ["copy", "remote", "secure", "transfer", "file"] }
             ]
         },
+        // package management commands
         {
             id: "packages",
             commands: [
@@ -92,6 +100,7 @@ const COMMANDS = {
                 { id: "dpkg", tags: ["package", "debian", "install", "manage", "deb"] }
             ]
         },
+        // disk and storage commands
         {
             id: "disk-storage",
             commands: [
@@ -104,6 +113,7 @@ const COMMANDS = {
                 { id: "blkid", tags: ["block", "uuid", "label", "device", "attribute"] }
             ]
         },
+        // logs and diagnostics commands
         {
             id: "logs-diagnostics",
             commands: [
