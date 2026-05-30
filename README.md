@@ -1,7 +1,7 @@
 <p align="center">
   <br>
-  <img src="https://img.shields.io/badge/versión-0.0-E95420?style=flat-square" alt="versión">
-  <img src="https://img.shields.io/badge/estado-en_desarrollo-D92243?style=flat-square" alt="estado">
+  <img src="https://img.shields.io/badge/versión-1.0-E95420?style=flat-square" alt="versión">
+  <img src="https://img.shields.io/badge/estado-activo-29903B?style=flat-square" alt="estado">
 </p>
 
 <h1 align="center">Ubuntu Command Hub</h1>
